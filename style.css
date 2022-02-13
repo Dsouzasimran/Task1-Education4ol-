@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 248, 248);
+    text-align: center;
+    
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    /* background-color: rgb(139, 97, 97); */
+    width: 37vw;
+    min-width: 300px;
+    padding: 7vh 0 5vh 0;
+    /* margin: 2vh 30vw; */
+    text-align: center;
+    line-height: 35px;
+}
+div .title h3{
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 1000; */
+    font-size: 1.4rem;
+    color: rgb(160, 155, 155);
+}
+div .title h2{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5rem;
+}
+div .title p{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(160, 155, 155);
+    line-height: 1.15rem;
+}
+div .content{
+    /* background-color: blue; */
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+div .content .item1{
+    width: 18vw;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px grey; 
+    border-top: 4px solid rgb(22, 111, 228);  
+    height: 140px;
+    margin: 20px;
+}
+div .content .item2{
+    width: 18vw;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px grey;   
+    border-top: 4px solid rgb(224, 34, 34);  
+    height: 140px;
+    margin: 20px;
+}
+div .content .item3{
+    width: 18vw;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px grey;   
+    border-top: 4px solid rgb(240, 219, 27);  
+    height: 140px;
+    margin: 20px;
+}
+div .content .item4{
+    width: 18vw;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px grey; 
+    border-top: 4px solid rgb(9, 129, 199);  
+    height: 140px;  
+    margin: 20px;
+}
+div .content h5{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.1rem;
+}
+div .content p{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(160, 155, 155);
+    font-size: 0.8rem;
+}
+div .content img{
+    width: 60px;
+    margin: 25px 0 0 180px;
+    
+}
+div .content .center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width:600px) and (max-width:993px) {
+    
+    div .content .center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
