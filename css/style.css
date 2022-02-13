@@ -49,7 +49,7 @@ div .content{
 }
 div .content .item1{
     width: 18vw;
-    min-width: 250px;
+    min-width: 275px;
     padding: 20px;
     box-shadow: 2px 2px 7px grey; 
     border-top: 4px solid rgb(22, 111, 228);  
@@ -58,7 +58,7 @@ div .content .item1{
 }
 div .content .item2{
     width: 18vw;
-    min-width: 250px;
+    min-width: 275px;
     padding: 20px;
     box-shadow: 2px 2px 7px grey;   
     border-top: 4px solid rgb(224, 34, 34);  
@@ -67,7 +67,7 @@ div .content .item2{
 }
 div .content .item3{
     width: 18vw;
-    min-width: 250px;
+    min-width: 275px;
     padding: 20px;
     box-shadow: 2px 2px 7px grey;   
     border-top: 4px solid rgb(240, 219, 27);  
@@ -76,7 +76,7 @@ div .content .item3{
 }
 div .content .item4{
     width: 18vw;
-    min-width: 250px;
+    min-width: 275px;
     padding: 20px;
     box-shadow: 2px 2px 7px grey; 
     border-top: 4px solid rgb(9, 129, 199);  
